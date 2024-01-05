@@ -1,0 +1,36 @@
+.Partners{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 3fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.partners-Heading h1{
+    /* width: 100%; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.Companies{
+    width: 100%;
+    display: flex;
+    padding-left: 25%;
+}
+.Companies img{
+  width: 10%;
+  height: 4rem;
+  padding-left: 2rem;
+
+}
+.elumni {
+    padding-top: 5rem;
+}
+.elumni p{
+    width: 50%;
+    margin-left: 25%;
+    color: grey;
+    opacity: 0.8;
+}

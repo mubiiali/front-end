@@ -1,0 +1,84 @@
+.Header_Container{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    background-color: aqua;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    background-color: white;
+    box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.3);
+   
+}
+.Header_Container img{
+    width: 10%;
+    height: 3rem;
+}
+.login img{
+    width: 20%;
+    height: 2rem;
+}
+.login{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.Header_Container button{
+    width: 10%;
+    height:3rem ;
+    margin-left: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;isplay: inline-block;
+    border: none;
+    background-color: white;
+    font: bold;
+
+    
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #28c98e;
+  color:black;
+  padding-left: 2rem;
+  font-size: 14px;
+  border: none;
+ 
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+   /* Set a higher z-index for the dropdown */
+}
+
+.dropdown-content {
+  display: none;
+  width: 5rem;
+  position: absolute;
+padding-left: 3rem;
+  z-index: 2; /* Set a higher z-index for the dropdown content */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  padding-top: 0.5rem;
+  color: #333;
+}
+.dropdown-content a:first-child {
+  padding: 0;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+   

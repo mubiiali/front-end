@@ -1,0 +1,21 @@
+.Footer{
+    width: 100%;
+    height: 20rem;
+    background-color:rgb(27,88,89) ;
+   
+   
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr;
+    
+}
+.Footer-content{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+padding: 4rem 8rem 8rem 8rem;
+color: white;
+
+}
+.Footer-content:first-child{
+    padding-left: 0;
+}

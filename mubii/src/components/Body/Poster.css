@@ -1,0 +1,11 @@
+.poster{
+    background-image: url('../images/blackboard-business-woman-professional-suit.jpg');
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+    opacity: 0.9;
+    padding-top: 4rem;
+    color: antiquewhite;
+    display: flex;
+    padding-left: 2rem;
+}
